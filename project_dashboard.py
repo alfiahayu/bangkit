@@ -49,11 +49,7 @@ def create_rfm_df(df):
     return rfm_df
 
 # Load cleaned data
-import os
-
-# Gunakan os.path.join untuk menghasilkan path yang bersifat lintas-platform
-file_path = os.path.join("C:", "Users", "netco", "Downloads", "alls_data.csv")
-all_df = pd.read_csv(file_path)
+all_df = pd.read_excel("all_data.xlsx")
 
 datetime_columns = ["order_approved_at_x", "order_delivered_customer_date_x"]
 for column in datetime_columns:
