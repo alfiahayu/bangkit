@@ -1,6 +1,5 @@
-matplotlib.pyplot
-numpy
 pandas
+matplotlib
 seaborn
 streamlit
 babel
