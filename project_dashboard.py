@@ -49,7 +49,7 @@ def create_rfm_df(df):
     return rfm_df
 
 # Load cleaned data
-all_df = pd.read_csv("alls_data.csv")
+all_df = pd.read_csv("alls_data (1).csv")
 
 datetime_columns = ["order_approved_at_x", "order_delivered_customer_date_x"]
 for column in datetime_columns:
